@@ -1,0 +1,28 @@
+{% extends 'layouts/master.html' %} {% block content %}
+<div class="contenedor">
+    <br>
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+            <div class="card">
+                <h1>LAGRANGE</h1>
+                <form method="POST" action="/lagrangeP/">
+                    {% csrf_token %}
+                    <label for=" ">Ingrese los valores de los vectores</label><br>
+                    <label for=" ">-Use la "," para separar los valores</label><br>
+                    <label for="fname">X:</label><br>
+                    <input type="text" id="x" name="x" required><br>
+                    <label for="lname">Y:</label><br>
+                    <input type="text" id="y" name="y" required><br><br>
+                    <div class="form-group col-md-12">
+                        <button type="submit" class="btn btn-outline-success btn-block">Ingresar</button>
+                    </div>
+                </form>
+                <h5>Polinomio:</h5>
+                <h5>\({{polinomio}}\)</h5>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

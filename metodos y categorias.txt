@@ -1,0 +1,37 @@
+ecuaciones no lineales
+	abiertos
+		busquedas incrementales
+		punto fijo
+		newton
+		secante
+		raices multiples
+	cerrados
+		regla falsa
+		biseccion
+
+eliminacion gaussiana
+	simple
+	total
+	parcial
+
+factorizacion lu
+	parcial
+	simple
+	dolittle
+	choleski
+	croud
+
+iterativos
+	sor
+	jacobi
+	jausseidel
+
+interpolacion
+	splines
+	diferencias divididas
+	lagrange
+	valermonda
+	
+
+
+
